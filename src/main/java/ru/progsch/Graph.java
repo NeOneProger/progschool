@@ -29,8 +29,8 @@ public class Graph {
         for (int i = 0; i < 4; i++) {
             for (int j = 0; j < i; j++) {
                 graph.setLink(i, j, random.nextBoolean());
-                graph.get(i, j);
-                graph.edgesCount();
+//                graph.get(i, j);
+//                graph.edgesCount();
             }
         }
     }

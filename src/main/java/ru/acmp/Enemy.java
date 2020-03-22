@@ -7,6 +7,7 @@ public class Enemy {
     private int x;
     private int y;
     protected int hp;
+    //-----------------------------------------------------------------------------------------------
     public void draw(){
         System.out.println("Enemy(" + x + "," + y + "," + hp + ")");
     }
